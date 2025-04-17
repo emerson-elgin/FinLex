@@ -1,1 +1,35 @@
-# requirements.txt - Auto-generated
+# Core Libraries
+pandas==1.5.3
+numpy==1.24.3
+
+# NLP & Text Processing
+nltk==3.8.1
+transformers==4.36.1
+torch==2.0.1
+sentencepiece==0.1.99
+scikit-learn==1.2.2
+datasets==2.14.6
+huggingface-hub==0.19.4
+peft==0.6.0  # Parameter-Efficient Fine-Tuning
+accelerate==0.23.0  # Training optimization
+bitsandbytes==0.41.1  # Quantization support
+trl==0.7.4  # RLHF/SFT training utilities
+wandb==0.15.10  # Experiment tracking
+
+# API for Deployment
+fastapi==0.103.1
+uvicorn==0.23.2
+
+# Web Scraping (If needed for data collection)
+beautifulsoup4==4.12.2
+requests==2.31.0
+
+# Data Visualization & Jupyter Notebooks
+matplotlib==3.7.1
+seaborn==0.12.2
+jupyter==1.0.0
+
+# Cloud & Deployment
+docker==6.1.3
+boto3==1.28.71  # For AWS S3 storage
+flask==2.0.1  # For web interface
